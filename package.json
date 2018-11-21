@@ -4,7 +4,7 @@
   "description": "This program lets you choose between two colors and set a gradient background by using vanilla js",
   "main": "myjs.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "browserify myjs.js > bundle.js && live-server"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/apontela/Background-Generator/issues"
   },
-  "homepage": "https://github.com/apontela/Background-Generator#readme"
+  "homepage": "https://github.com/apontela/Background-Generator#readme",
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
 }
