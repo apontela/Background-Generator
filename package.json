@@ -1,0 +1,23 @@
+{
+  "name": "background-generator",
+  "version": "1.0.0",
+  "description": "This program lets you choose between two colors and set a gradient background by using vanilla js",
+  "main": "myjs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apontela/Background-Generator.git"
+  },
+  "keywords": [
+    "backgoung",
+    "generator"
+  ],
+  "author": "Luis Aponte",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apontela/Background-Generator/issues"
+  },
+  "homepage": "https://github.com/apontela/Background-Generator#readme"
+}
